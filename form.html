@@ -6,62 +6,65 @@
 </head>
 
 <body>
-    <form>
-        <table>
-            <tr>
-                <td colspan="2">Henkilötiedot:</td>
-                <td colspan="2">Ajoneuvo:</td>
-            </tr>
-            <tr>
-                <td><label>Etunimi</label></td>
-                <td><input type="text" id="fname" name="fname"></td>
-                <td>
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                    <label for="vehicle1"> I have a bike</label>
-                </td>
-            </tr>
-            <tr>
-                <td><label>Sukunimi</label></td>
-                <td><input type="text" id="lname" name="lname"></td>
-                <td>
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                    <label for="vehicle2"> I have a car</label>
-                </td>
-            </tr>
-            <tr>
-                <td><label>Selain:</label></td>
-                <td><input list="browsers"></td>
-                <td>
-                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                    <label for="vehicle3"> I have a boat</label>
-                    <datalist id="browsers">
-                        <option value="Internet Explorer">
-                        <option value="Firefox">
-                        <option value="Chrome">
-                        <option value="Opera">
-                        <option value="Safari">
-                    </datalist>
-                </td>
-            </tr>
-            <tr>
-                <td><label>Auto:</label></td>
-                <td>
-                    <select id="cars" name="cars">
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="fiat">Fiat</option>
-                        <option value="audi">Audi</option>
-                    </select>
-                </td>
-            </tr>
+    <fieldset>
+        <legend>Kyselylomake</legend>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="2">Henkilötiedot:</td>
+                    <td colspan="2">Ajoneuvo:</td>
+                </tr>
+                <tr>
+                    <td><label>Etunimi</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Sukunimi</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                    <td>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> I have a car</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Selain:</label></td>
+                    <td><input list="browsers"></td>
+                    <td>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> I have a boat</label>
+                        <datalist id="browsers">
+                            <option value="Internet Explorer">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Auto:</label></td>
+                    <td>
+                        <select id="cars" name="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </td>
+                </tr>
 
-            <tr>
-                <td><input type="Submit"></td>
-            </tr>
-        </table>
+                <tr>
+                    <td><input type="Submit"></td>
+                </tr>
+            </table>
 
 
-    </form>
+        </form>
+    </fieldset>
 </body>
 
 </html>
