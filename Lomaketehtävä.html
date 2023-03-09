@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomaketehtävä</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Contact information:</legend>
+        <table>
+            <tr>
+                <td><label>Firstname:</label></td>
+                <td><input type="text" id="fname" name="fname"></td>
+                <td><label>Preferred contact method:</label></td>
+            </tr>
+            <tr>
+                <td><label>Lastname:</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+                <td><input type="checkbox" id="email2" name="email2" value="Email">
+                    <label for="email2"> Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+                <td><input type="checkbox" id="phone" name="phone" value="Phone">
+                    <label for="phone"> Telephone</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Telephone:</label></td>
+                <td><input type="tel" id="telephone" name="telephone"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Feedback:</legend>
+        <table>
+            <tr>
+                <td><label>Message subject:</label></td>
+            </tr>
+        </table>
+
+        <tr>
+            <td><textarea name="message" rows="10" cols="45"></textarea>
+
+        </tr>
+
+        <table>
+            <tr>
+                <td><label>Attach file:</label></td>
+                <td></td>
+                <td><input type="file" value="Choose file"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Send"></td>
+            </tr>
+        </table>
+
+    </fieldset>
+</body>
+
+</html>
