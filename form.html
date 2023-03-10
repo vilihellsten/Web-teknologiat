@@ -3,6 +3,7 @@
 
 <head>
     <title>Lomake-esimerkki</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="styles.css">
 </head>
 
 <body>
@@ -19,15 +20,15 @@
                     <td><input type="text" id="fname" name="fname"></td>
                     <td>
                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                        <label for="vehicle1"> I have a bike</label>
+                        <label for="vehicle1"> Polkupyörä</label>
                     </td>
                 </tr>
                 <tr>
-                    <td><label>Sukunimi</label></td>
+                    <td><label>Sukunimi </label></td>
                     <td><input type="text" id="lname" name="lname"></td>
                     <td>
                         <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                        <label for="vehicle2"> I have a car</label>
+                        <label for="vehicle2"> Auto</label>
                     </td>
                 </tr>
                 <tr>
@@ -35,7 +36,7 @@
                     <td><input list="browsers"></td>
                     <td>
                         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                        <label for="vehicle3"> I have a boat</label>
+                        <label for="vehicle3"> Vene</label>
                         <datalist id="browsers">
                             <option value="Internet Explorer">
                             <option value="Firefox">
@@ -46,7 +47,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><label>Auto:</label></td>
+                    <td>Auto:</td>
                     <td>
                         <select id="cars" name="cars">
                             <option value="volvo">Volvo</option>
@@ -57,6 +58,9 @@
                     </td>
                 </tr>
 
+                <tr>
+                    <td><input type="file" value="Choose file"></td>
+                </tr>
                 <tr>
                     <td><input type="Submit"></td>
                 </tr>

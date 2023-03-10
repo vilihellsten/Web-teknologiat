@@ -1,0 +1,61 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+fieldset {
+    background-color: sandybrown;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: blue;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+input,
+textarea,
+select {
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgb(185, 185, 185);
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+input[type="file"] {
+    /* input choose file perii taustan värin no file chosen kohtaan eikä alkuperäistä harmaata*/
+    background-color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
