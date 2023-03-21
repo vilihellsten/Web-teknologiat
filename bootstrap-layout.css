@@ -1,0 +1,10 @@
+.col-6 {
+    border-color: blue;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.container {
+    margin-top: 75px;
+    margin-bottom: 60px;
+}
