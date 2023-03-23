@@ -8,73 +8,80 @@
 
 <body>
     <div class="main-container">
-        <div class="item">
-            <fieldset>
-                <legend>Contact information:</legend>
 
+        <fieldset>
 
-                <div class="input-container">
-                    <label for="fname">Firstname:</label>
-                    <input type="text" id="fname" name="fname">
+            <legend>Contact information:</legend>
+            <div class="secondary-container">
+                <div class="container">
+
+                    <div class="input-container">
+                        <label for="fname">Firstname:</label>
+                        <input type="tel" id="telephone" name="telephone">
+                    </div>
+
+                    <div class="input-container">
+                        <label for="lname">Lastname:</label>
+                        <input type="tel" id="telephone" name="telephone">
+                    </div>
+
+                    <div class="input-container">
+                        <label for="email">Email:</label>
+                        <input type="tel" coldspan="2" id="telephone" name="telephone">
+                    </div>
+
+                    <div class="input-container">
+                        <label for="telephone">Telephone:</label>
+                        <input type="tel" id="telephone" name="telephone">
+                    </div>
+
                 </div>
 
-                <div class="input-container">
-                    <label for="lname">Lastname:</label>
-                    <input type="text" id="lname" name="lname">
+                <div class="container">
+                    <div class="input-container">
+                        <label>Preferred contact method:</label>
+                    </div>
+
+                    <div class="input-container2">
+                        <input type="checkbox" id="email2" name="email2" value="Email">
+                        <label for="email2"> Email</label>
+                    </div>
+
+                    <div class="input-container2">
+                        <input type="checkbox" id="phone" name="phone" value="Phone">
+                        <label for="phone"> Telephone </label>
+                    </div>
                 </div>
 
+            </div>
+        </fieldset>
 
-                <div class="input-container">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+        <fieldset>
+            <legend>Feedback:</legend>
+            <div class="secondary-container">
+
+                <div class="container">
+                    <div class="input-container2">
+                        <label for="subject">Message subject:</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+
+                    <div class="input-container">
+                        <textarea name="message" rows="10" cols="45"></textarea>
+                    </div>
+
+                    <div class="input-container">
+                        <label>Attach file:</label>
+                        <input type="file" value="Choose file">
+                    </div>
+
+                    <div class="input-container">
+                        <input type="submit" value="Send">
+                    </div>
                 </div>
+            </div>
+        </fieldset>
 
-                <div class="input-container">
-                    <label for="telephone">Telephone:</label>
-                    <input type="tel" id="telephone" name="telephone">
-
-
-                </div>
-
-                <div class="input-container">
-                    <label>Preferred contact method:</label>
-                </div>
-
-
-                <div class="input-container">
-                    <label for="phone"> Telephone: <input type="checkbox" id="phone" name="phone" value="Phone"></label>
-                </div>
-
-                <div class="input-container">
-                    <label for="email2"> Email:<input type="checkbox" id="email2" name="email2" value="Email"></label>
-                </div>
-
-
-            </fieldset>
-        </div>
-
-        <div class="item">
-            <fieldset>
-                <legend>Feedback:</legend>
-                <div class="input container">
-                    <label for="subject">Message subject:</label>
-                    <input type="text" id="subject" name="subject">
-                </div>
-
-                <div class="inputcontainer">
-                    <textarea name="message" rows="10" cols="45"></textarea>
-                </div>
-
-                <div class="input-container">
-                    <label>Attach file:</label>
-                    <input type="file" value="Choose file">
-                </div>
-
-                <div class="input-container">
-                    <input type="submit" value="Send">
-                </div>
-            </fieldset>
-        </div>
     </div>
 
 </body>
