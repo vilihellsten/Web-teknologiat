@@ -3,9 +3,14 @@
     flex-direction: column;
     margin-top: 75px;
     margin-left: 5px;
+    margin-bottom: 75px;
 }
 
 .content-container {
     margin-left: 5px;
     margin-top: 10px;
+}
+
+.container-fluid {
+    padding-bottom: 0px;
 }
