@@ -5,23 +5,37 @@
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     width: 80%;
-
+    border-style: dashed;
+    border-color: black;
+    border-spacing: 5px;
 }
 
 .item {
     background-color: darkslateblue;
+
 }
 
 ul {
     color: white;
     background-color: darkslateblue;
+
+
 }
 
 table {
     color: white;
     background-color: darkslateblue;
+    margin-left: 5px;
+
 }
 
 h1 {
     text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
 }
