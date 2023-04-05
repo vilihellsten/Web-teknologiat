@@ -1,4 +1,4 @@
-.maincontainer {
+.main-container {
     display: flex;
     flex-direction: column;
     margin-top: 75px;
@@ -7,8 +7,9 @@
 }
 
 .content-container {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .container-fluid {

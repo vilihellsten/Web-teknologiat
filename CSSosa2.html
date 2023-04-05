@@ -40,8 +40,6 @@
                         <li><a class="dropdown-item"
                                 href="https://vilihellsten.github.io/Web-teknologiat/form2">form2</a>
                         </li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
 
                 </div>
@@ -57,66 +55,84 @@
         </div>
     </nav>
 
-    <div class="maincontainer">
-        <h3>Tägien esittely </h3>
+    <div class="main-container">
+        <div class="content-container">
+            <h3>Perustietoa HTML kielestä</h3><br>
+            <p>Tässä on HTML-dokumentin perusrunko jonka sisälle verkkosivujen sisältö sijoitetaan.</p>
+
+            <img src="html.png" width="420" height="235" style="border-style: solid;">
+        </div>
+
+        <div class="content-container">
+            <h3>Muutamia HTLM-elementtejä</h3><br>
+        </div>
 
         <div class="content-container">
             <p>&lt;html&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>&lt;html&gt;-elementti on HTML-koodin peruselementti. Kaikki muut HTML-elementit täytyy sisällyttää
+                    tämän elementin sisään</li>
             </ul>
         </div>
 
         <div class="content-container">
             <p>&lt;head&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>
+                    &lt;head&gt;-elementti sisältää sivun metatiedot ja muut tiedot, jotka
+                    eivät näy suoraan sivun sisällössä kuten tyylitiedostojen sijainnit ja sivun otsikon.
+                </li>
             </ul>
         </div>
 
         <div class="content-container">
-            <td>body</td>
+            <p>&lt;body&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>&lt;body&gt;-elementti sisältää kaiken sivun näkyvän sisällön, kuten tekstin,
+                    kuvat, linkit.</li>
             </ul>
         </div>
 
         <div class="content-container">
-            <td>p</td>
+            <p>&lt;p&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>&lt;p&gt;-elementtiä käytetään tekstikappaleiden määrittämiseen. Se merkitsee kappaleen alkua ja
+                    loppua, ja kaikki sen sisäänkirjoitettu teksti tulkitaan yhdeksi tekstikappaleeksi, joka esitetään
+                    selaimessa peräkkäin muiden <p>
+                </li>
             </ul>
         </div>
 
         <div class="content-container">
-            <td>img</td>
+            <p>&lt;img&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>&lt;img&gt;-elementti kertoo kuvan sijainnin verkkosivuston sisällön joukossa. Tähän lisäämällä
+                    &lt;img src "linkki"&gt; voidaan kertoa sijainti mistä kuva ladataan sivulle.</li>
             </ul>
         </div>
 
         <div class="content-container">
-            <td>a</td>
+            <p>&lt;a&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>&lt;a&gt;-elementti luo hyperlinkin verkkosivulle, tiedostoihin tai esimerkiksi saman sivun
+                    sijainteihin. Tähän lisäämällä &lt;a href "sijainti"&gt; voidaan määrittää mihin linkki vie. </li>
             </ul>
         </div>
 
         <div class="content-container">
-            <td>br</td>
+            <p>&lt;br&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>&lt;br&gt;-elementtiä käytetään rivinvaihdokseen tekstissä.</li>
             </ul>
         </div>
 
         <div class="content-container">
-            <td>h1</td>
+            <p>&lt;h1&gt;</p>
             <ul>
-                <li>Asiaa tästä aiheesta</li>
+                <li>&lt;h1&gt;-elementti luo sivulle otsikon ja sen kokoa voidaan muuttaa muuttamalla h-kirjaimen
+                    jälkeistä numeroa esim : &lt;h1-6&gt;.</li>
             </ul>
         </div>
-
-
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
