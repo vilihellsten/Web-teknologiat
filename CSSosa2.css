@@ -4,6 +4,7 @@
     margin-top: 75px;
     margin-left: 5px;
     margin-bottom: 75px;
+    color: white;
 }
 
 .content-container {
@@ -15,4 +16,18 @@
 
 .container-fluid {
     padding-bottom: 0px;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.collapse {
+    background-color: rgb(27, 27, 27);
+    color: white;
+
+}
+
+.navbar-collapse {
+    background-color: transparent;
 }
